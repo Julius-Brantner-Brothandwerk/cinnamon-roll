@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/new-order", newOrder);
 
-app.listen(3000, () => {
+app.listen(8080, () => {
   console.log("server started");
 });
 
